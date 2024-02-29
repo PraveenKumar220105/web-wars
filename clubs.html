@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Calendar</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  .event-section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .event-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  .event-list li {
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+  }
+  .event-list li:last-child {
+    border-bottom: none;
+  }
+  .event-name {
+    font-weight: bold;
+    color: #007bff;
+  }
+  .event-date {
+    color: #6c757d;
+  }
+  .gallery {
+    margin-top: 50px;
+  }
+  .gallery-item {
+    margin-bottom: 30px;
+  }
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+</style>
+</head>
+<body>
+    <br>
+    <header class="header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-2">
+              <img src="cmrlogo.jpg" alt="College Logo" class="logo" style="width: 200px; height: auto;">
+            </div>
+            <div class="col-8 text-center">
+              <h1 class="college-name" style="font-size: 32px;">CMR COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+            </div>
+            <div class="col-2">
+              <input type="text" class="form-control search-bar" placeholder="Search...">
+            </div>
+          </div>
+        </div>
+      </header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Section 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Section 2</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Section 3</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Section 4</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Section 5</a></li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+<div class="container">
+    <h3>Events Calendar</h3>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="event-section">
+        <h2 class="event-title">Upcoming Events</h2>
+        <ul class="event-list">
+            <li>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuZFaWxyTGLt2SMCmYahya6NRWhnahxKvtlYs9OJNAOxH-5Q/viewform" class="event-link">
+                    <span class="event-name">Web-Wars:</span>
+                    <span class="event-date">March 07, 2024</span>
+                </a>
+            </li>
+          <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuZFaWxyTGLt2SMCmYahya6NRWhnahxKvtlYs9OJNAOxH-5Q/viewform" class="event-link">
+                <span class="event-name">Dance Competition:</span>
+                <span class="event-date">March 22, 2024</span>
+            </a>
+        </li>
+          <!-- Add more upcoming events here -->
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="event-section">
+        <h2 class="event-title">Previous Events</h2>
+        <ul class="event-list">
+            <li>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuZFaWxyTGLt2SMCmYahya6NRWhnahxKvtlYs9OJNAOxH-5Q/viewform" class="event-link">
+                    <span class="event-name">Code-a-thon:</span>
+                    <span class="event-date">February 21, 2024</span>
+                </a>
+            </li>
+          <li>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuZFaWxyTGLt2SMCmYahya6NRWhnahxKvtlYs9OJNAOxH-5Q/viewform" class="event-link">
+                <span class="event-name">Debate-Competition:</span>
+                <span class="event-date">February 22, 2024</span>
+            </a>
+        </li>
+          <!-- Add more previous events here -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row gallery">
+    <div class="col-md-4">
+      <div class="gallery-item">
+        <img src="dance.jpg" alt="Event Image 1">
+        <p class="text-center" style="color: black;">Dance</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="gallery-item">
+        <img src="debate.jpg" alt="Event Image 2">
+        <p class="text-center" style="color: black;">Debate-Competition</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="gallery-item">
+        <img src="icpc.jpg" alt="Event Image 3">
+        <p class="text-center" style="color: black;">ICPC at CMRCET</p>
+      </div>
+    </div>
+    <!-- Add more images here -->
+  </div>
+</div>
+
+</body>
+</html>
