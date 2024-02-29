@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Wars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-2">
+          <img src="cmrlogo.jpeg" alt="College Logo" class="logo" style="width: 200px; height: auto;">
+        </div>
+        <div class="col-8 text-center">
+          <h1 class="college-name" style="font-size: 32px;">CMR COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+        </div>
+        <div class="col-2">
+          <input type="text" class="form-control search-bar" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Section 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Section 2</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Section 3</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Section 4</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Section 5</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .department-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .department-item {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .department-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+            transition: transform 0.5s ease;
+        }
+        .department-item {
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .department-item:hover .department-img {
+            transform: scale(1.1);
+        }
+        .department-caption {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .department-item:hover .department-caption {
+            opacity: 1;
+        }
+        .slide-from-left {
+            animation: slideFromLeft 0.5s ease forwards;
+        }
+        .slide-from-right {
+            animation: slideFromRight 0.5s ease forwards;
+        }
+        @keyframes slideFromLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        @keyframes slideFromRight {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="department-item slide-from-left">
+                    <a href="csc.html">
+                        <img src="csc.jpg" alt="Department 1" class="department-img">
+                        <div class="department-caption">Department 1</div>
+                        <p class="text-center"  style="font-family:verdana;">Cyber Security</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="department-item slide-from-bottom">
+                    <a href="cse.html">
+                        <img src="cs.jpg" alt="Department 2" class="department-img">
+                        <div class="department-caption">Department 2</div>
+                        <p class="text-center"style="font-family:verdana;">Computer Science</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="department-item slide-from-right">
+                    <a href="ece.html">
+                        <img src="ecenew.jpg" alt="Department 3" class="department-img">
+                        <div class="department-caption">Department 3</div>
+                        <p class="text-center"style="font-family:verdana;">ECE</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Add more rows and departments as needed -->
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="department-item slide-from-left">
+                    <a href="aiml.html">
+                        <img src="aiml.jpg" alt="Department 1" class="department-img">
+                        <div class="department-caption">Department 4</div>
+                        <p class="text-center"style="font-family:verdana;">AIML</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="department-item slide-from-bottom">
+                    <a href="ds.html">
+                        <img src="datasc.jpg" alt="Department 2" class="department-img">
+                        <div class="department-caption">Department 5</div>
+                        <p class="text-center"style="font-family:verdana;">Data Science</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="department-item slide-from-right">
+                    <a href="mech.html">
+                        <img src="mech.jpg" alt="Department 3" class="department-img">
+                        <div class="department-caption">Department 6</div>
+                        <p class="text-center"style="font-family:verdana;">Mechanical</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="department-item slide-from-left">
+                    <a href="civil.html">
+                        <img src="civil.jpg" alt="Department 1" class="department-img">
+                        <div class="department-caption">Department 7</div>
+                        <p class="text-center"style="font-family:verdana;">Civil</p>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
